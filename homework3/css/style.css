@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    font-family: Nunito;
+    border-radius: 20px;
+    padding: 16px;
+    width: 420px;
+    margin: 35px auto;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 32px 0px #6061703D, 0px 2px 8px 0px #28293D14;
+
+}
+
+form h2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    width: 356px;
+    height: 32px;
+}
+
+form .close_form {
+    width: 388px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form img {
+    height: 24px;
+}
+
+form .second_block {
+    width: 388px;
+    height: 370px;
+    padding: 0px 16px 16px 16px;
+
+}
+
+form .input {
+    width: 356px;
+    height: 48px;
+    cursor: text;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+form .Email {
+    margin-top: 24px;
+    gap: 0px;
+    border: 1px solid #FFE44D;
+    padding: 21px 18px 7px 16px;
+    color: #1A1A1A;
+    ;
+}
+
+form .Password {
+    margin-top: 8px;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    padding: 14px 16px 14px 16px;
+    gap: 10px;
+    color: #7B8E98;
+
+
+}
+
+form .agree {
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #7B8E98;
+}
+
+form .sign_up {
+    margin-top: 24px;
+    width: 356px;
+    height: 48px;
+    padding: 14px 24px 14px 24px;
+    gap: 0px;
+    border-radius: 55px;
+    background: #FFE44D;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    border: none;
+}
+
+form .Enter {
+    margin-top: 8px;
+    width: 356px;
+    height: 48px;
+    padding: 14px 24px 14px 24px;
+    gap: 0px;
+    border-radius: 55px;
+    border: 1px solid #CFD8DC;
+    background-color: white;
+}
